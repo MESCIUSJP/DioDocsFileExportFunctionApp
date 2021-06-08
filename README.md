@@ -1,0 +1,2 @@
+# DioDocsFileExportFunctionApp
+Azure FucntionsとDioDocsでExcelやPDFファイルを出力する（1）
