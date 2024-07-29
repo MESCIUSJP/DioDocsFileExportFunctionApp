@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AzureFunctionsVersion>v3</AzureFunctionsVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="GrapeCity.DioDocs.Excel.ja" Version="4.1.1" />
-    <PackageReference Include="GrapeCity.DioDocs.Pdf.ja" Version="4.1.0.660" />
-    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.13" />
+    <PackageReference Include="DioDocs.Excel.ja" Version="7.1.3" />
+    <PackageReference Include="DioDocs.Pdf.ja" Version="7.1.3" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.4.0" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
